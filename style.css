@@ -1,0 +1,139 @@
+@font-face {
+    font-family: 'deftone';
+    src: url('fonts/webfontkit-20240610-102215/deftone-webfont.woff2') format('woff2'),
+        url('fonts/webfontkit-20240610-102215/deftone-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+  * {
+    margin: 0;
+}
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+img, picture, video, canvas, svg {
+    display: block;
+    max-width: 100%;
+}
+input, button, textarea, select {
+    font: inherit;
+}
+p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+}
+#root, #__next {
+    isolation: isolate;
+}
+body{
+    background-color: #F9FAFB;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header h2 {
+    font-size: 1.3rem;
+}
+header{
+    margin-top: 150px;
+    margin-left: 50px;
+}
+.h2one {
+    padding-bottom: 30px;
+}
+.h2two {
+    padding-bottom: 50px;
+}
+.sec-1 {
+    padding-left: 50px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    background-color: #FFFFFF;
+    box-shadow: 0em 3px .4em #DFE0E1;
+}
+.h2three {
+    padding: 25px 0px;
+
+}
+.main-form{
+    display: flex;
+    flex-direction: column;
+}
+.form-row{
+    display: flex;
+    gap: 100px;
+    
+}
+.form-group{
+    display: flex;
+    flex-direction: column;
+
+    width: 300px;
+    padding-bottom: 20px;
+}
+label {
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 0.1rem ;
+    color: #5f646a;
+}
+
+.form-group input {
+    appearance: none;
+    border: 1px solid #E5E7EB;
+    border-radius: 5px;
+    
+    
+    
+}
+.form-group input:focus {
+    appearance: none;
+    border: 1px solid #2756D9;
+    border-radius: 5px;
+    outline: none;
+    box-shadow: 2px 2px .4em #DEDEDE;
+}
+.form-group input:required:invalid:focus {
+    border: 1px solid red ;
+    outline: none;
+
+}
+
+
+.sec-2 {
+    padding-left: 50px;
+    
+}
+.submit {
+    margin-bottom: 20px;
+}
+.submit.button button{
+    width: auto;
+    padding: 10px 80px;
+
+    border: 0px solid ;
+    border-radius: 7px;
+    background-color: #596D48;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    box-shadow: 2px 2px .4em #DEDEDE
+}
+.submit.login{
+    font-weight: 500;
+}
+.clickable a {
+    text-decoration: none;
+    color:#596D48 ;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
