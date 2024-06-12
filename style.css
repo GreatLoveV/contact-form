@@ -15,6 +15,7 @@
 body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    
 }
 img, picture, video, canvas, svg {
     display: block;
@@ -63,7 +64,7 @@ header{
 }
 .form-row{
     display: flex;
-    gap: 100px;
+    gap: 70px;
     
 }
 .form-group{
@@ -95,9 +96,10 @@ label {
     outline: none;
     box-shadow: 2px 2px .4em #DEDEDE;
 }
-.form-group input:required:invalid:focus {
-    border: 1px solid red ;
-    outline: none;
+input[type="password"]:focus:invalid {
+    border: 1px solid red;
+    outline:none;
+    
 
 }
 
@@ -115,7 +117,7 @@ label {
 
     border: 0px solid ;
     border-radius: 7px;
-    background-color: #596D48;
+    background-color: #B52268;
     color: white;
     cursor: pointer;
     font-weight: 700;
@@ -126,9 +128,46 @@ label {
 }
 .clickable a {
     text-decoration: none;
-    color:#596D48 ;
+    color: #B52268 ;
     font-weight: 700;
 }
+
+.container {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    height: 100vh;
+}
+.background-image {
+    position: relative;
+    background-image: url(/images/1710526257594393.png);
+    background-size: cover;
+    background-position:center center;
+}
+.lowopacitybg {
+    position: absolute;
+    width: 100%;
+    background-color:rgba(0, 0, 0, 0.5);
+    height: 150px;
+    top: 160px;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.ladybug {
+    height: 150px;
+    width: auto;
+}
+.ladybug-text{
+    font-family: 'deftone' , sans-serif ;
+    font-size: 3rem;
+    line-height: 3rem;
+    color:black ;
+}
+
+
 
 
 
