@@ -139,7 +139,7 @@ input[type="password"]:focus:invalid {
 }
 .background-image {
     position: relative;
-    background-image: url(/images/1710526257594393.png);
+    background-image: url('/images/background.png');
     background-size: cover;
     background-position:center center;
 }
